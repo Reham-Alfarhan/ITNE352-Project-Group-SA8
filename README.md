@@ -31,6 +31,41 @@ Split the terminal in half after opening it in your IDE. ii. Open a terminal and
 ## • Interacting with the GUI:
 Once the client code has connected to the server, the user will be asked for their name.  o A menu with the following choices will be shown to the user: Quit, sources, and headlines.  If you select "Quit," the connection will be terminated.  o A list of headlines and sources with a synopsis of each result will be generated after the user selects an option. The user can select a result to see more details about it if he needs them.
 
+## • The code:
+The two primary files in the code are server-side.py and GUI_Client.py.
+
+## • GUI_Client.py:
+1. Welcome Screen
+Prompt for user’s name.
+Proceeds to Main Menu on valid input.
+
+2. Main Menu Options
+ -Search Flight Info
+ Search by flight status (e.g., Arrived, Delayed)
+ -Search by airport code
+ -View all flights
+-Back to Main Menu
+✈Flight Details
+-Select a flight from the results to see:
+-Flight number, airline
+-Departure/arrival airports
+-Status, scheduled time, etc.
+
+List of Airports (Sources)
+-Filter by country, region, or ICAO prefix
+-Show all airports
+❌ Quit
+
+
+
+
+
+
+
+
+
+
+
 
 
 
