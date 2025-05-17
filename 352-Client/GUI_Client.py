@@ -7,7 +7,7 @@ import json
 window = tk.Tk()
 window.title("Flight Information Client")
 window.geometry("900x700")  
-window.configure(bg="#ffcccc")
+window.configure(bg="#f8a4a4")
 global data
 
 #---------Placing Main widgets-----------------
