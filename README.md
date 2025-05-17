@@ -35,25 +35,25 @@ Once the client code has connected to the server, the user will be asked for the
 The two primary files in the code are server-side.py and GUI_Client.py.
 
 ## • GUI_Client.py:
-1. Welcome Screen
-Prompt for user’s name.
-Proceeds to Main Menu on valid input.
+1. The welcome screen asks for the name of the user.
+The Main Menu appears when the input is valid.
 
-2. Main Menu Options
- -Search Flight Info
- Search by flight status (e.g., Arrived, Delayed)
- -Search by airport code
- -View all flights
--Back to Main Menu
-✈Flight Details
--Select a flight from the results to see:
-1- Flight number, airline
-2-Departure/arrival airports
-3-Status, scheduled time, etc.
+2. Options on the Main Menu
+Look Up Flight Details
+-Search based on the status of your flight (e.g., Arrived, Delayed)
+-Use the airport code to search.
+-See every flight.
+🔙 Return to Main Menu
+✈Details of the flight
+-From the results, pick a flight to view:
+1- airline and flight number
+2-Airports of departure and arrival.
+3-Timetable, status, etc.
 
-List of Airports (Sources)
--Filter by country, region, or ICAO prefix
--Show all airports
+
+🌐 Airport List (Sources)
+-Sort by ICAO prefix, country, or region.
+-Display every airport.
 ❌ Quit
 
 
