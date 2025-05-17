@@ -47,9 +47,9 @@ Proceeds to Main Menu on valid input.
 -Back to Main Menu
 ✈Flight Details
 -Select a flight from the results to see:
--Flight number, airline
--Departure/arrival airports
--Status, scheduled time, etc.
+1- Flight number, airline
+2-Departure/arrival airports
+3-Status, scheduled time, etc.
 
 List of Airports (Sources)
 -Filter by country, region, or ICAO prefix
