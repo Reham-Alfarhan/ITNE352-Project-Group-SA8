@@ -26,7 +26,7 @@ class FlightServer:
         response = requests.get(url)
         if response.status_code == 200:
             flight_data = response.json()
-            with open("group_A.json", "w") as json_file:  # Replace "group_A" with your actual group ID
+            with open("group_S8.json", "w") as json_file:  # Replace "group_A" with your actual group ID
                 json.dump(flight_data, json_file, indent=4)
             print(f"[INFO] Flight data for {airport_code} retrieved successfully.")
             return flight_data
