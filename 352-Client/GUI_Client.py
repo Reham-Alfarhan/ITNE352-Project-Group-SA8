@@ -11,7 +11,6 @@ window.configure(bg="#92b2c8")  # Light background color
 
 # Global variable to store data
 data = None
-
 # Function to send data to the server
 def presendingtoserver():
     global data
