@@ -37,7 +37,7 @@ def presendingtoserver():
 # Function to handle server communication
 def sendingToServer():
     server_ip = "127.0.0.1"
-    server_port = 12559
+    server_port = 12560
 
     try:
         client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
